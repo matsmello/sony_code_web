@@ -1,3 +1,11 @@
 .w-128 {
   width: 30rem;
 }
+
+.zoom-in {
+  transition: width 0.75s;
+}
+
+.zoom-in:hover {
+  width: 12rem;
+}

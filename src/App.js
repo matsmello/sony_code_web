@@ -15,11 +15,11 @@ function App() {
             </p>
             <div className="flex justify-center">
               <img
-                className="h-auto w-40 object-contain"
+                className="h-auto w-40 object-contain zoom-in"
                 src={require("./images/apple.png").default}
               />
               <img
-                className="h-auto w-40 object-contain"
+                className="h-auto w-40 object-contain zoom-in"
                 src={require("./images/appstore.png").default}
               />
             </div>
