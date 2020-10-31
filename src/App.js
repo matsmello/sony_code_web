@@ -1,29 +1,41 @@
 import React from "react";
+import { Header } from "./components";
 function App() {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg">
-      <img className="w-full" alt="Display" />
-      <div className="px-6 py-4">
-        <div className="font-bold text-purple-500 text-xl mb-2">
-          Blessing Krofegha
-        </div>
-        <p className="text-gray-700 text-base">
-          When i’m not coding i switch to netflix with biscuits and cold tea as
-          my companion. <span></span>😜
-        </p>
+    <>
+      <Header />
+      <div className="w-full bg-orange-500">
+        <section className="flex">
+          <div className="flex flex-col justify-evenly flex-1 text-center">
+            <h1 className="text-white text-6xl">Music App</h1>
+            <p className="text-2xl px-20 py-5">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem been the industry's standard dummy text ever since
+              the 1500s.
+            </p>
+            <div className="flex justify-center">
+              <img
+                className="h-auto w-40 object-contain"
+                src={require("./images/apple.png").default}
+              />
+              <img
+                className="h-auto w-40 object-contain"
+                src={require("./images/appstore.png").default}
+              />
+            </div>
+          </div>
+          <div className="flex-1 justify-end flex">
+            <div className="w-128">
+              <img
+                className="h-auto w-auto object-contain"
+                src={require("./images/person.png").default}
+              />
+            </div>
+          </div>
+        </section>
+        <section className="w-full bg-white h-64"></section>
       </div>
-      <div className="px-6 py-4">
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-          #Software Engineer
-        </span>
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-          #Writter
-        </span>
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-2 ml-20">
-          #Public Speaker
-        </span>
-      </div>
-    </div>
+    </>
   );
 }
 export default App;

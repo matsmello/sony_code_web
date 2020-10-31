@@ -4,6 +4,7 @@ import Routes from "./routes";
 import reportWebVitals from "./reportWebVitals";
 
 import "./assets/main.css";
+import "./assets/custom.css";
 
 ReactDOM.render(<Routes />, document.getElementById("root"));
 
