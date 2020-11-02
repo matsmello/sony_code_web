@@ -9,3 +9,7 @@
 .zoom-in:hover {
   width: 12rem;
 }
+
+.text-8xl {
+  font-size: 10rem;
+}

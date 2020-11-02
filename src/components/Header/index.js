@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <nav class="bg-transparent bg-orange-500">
+    <nav class="bg-transparent">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 justify-end">
           <div class="flex">
